@@ -1,0 +1,110 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(3, 219, 93);
+}
+
+/*menú superior*/
+.navbar, .clases-menu {
+    background-color: #333;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar a, .clases-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.navbar a:hover, .clases-menu a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.clase {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.clase a {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+.navbar {
+    background-color: #333;  /* Color de fondo */
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: white;  /* Color del texto */
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    background-color: #555; /* Cambio de color al pasar el mouse */
+    border-radius: 5px;
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Estilos para cada clase */
+.clase {
+    border-left: 5px solid #007bff;
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.clase:hover {
+    transform: scale(1.02);
+}
+
+/* Botones de enlace */
+.clase a {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.clase a:hover {
+    background-color: #0056b3;
+}
