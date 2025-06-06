@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="calculadora1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Costos</title>
+</head>
+<body>
+    <div class="navbar">
+    <a onclick="window.location.href='marzo2.html';">Volver Al Inicio</a>
+    </div>
+
+    <div class="container">
+        <h2>Calculadora de Costos</h2>
+        <p>Ingrese los valores para calcular el gasto total:</p>
+        <label for="a">Costo fijo (U$S):</label>
+        <input type="number" id="a" value="5000">
+        <br>
+        <label for="b">Costo variable por unidad (U$S):</label>
+        <input type="number" id="b" value="30">
+        <br>
+        <button onclick="calcularCosto()">Calcular</button>
+        <p id="resultado"></p>
+    </div>
+
+    <script>
+        function calcularCosto() {
+            let a = parseFloat(document.getElementById('a').value);
+            let b = parseFloat(document.getElementById('b').value);
+            let E = a + (1000 * b);
+            document.getElementById('resultado').innerText = `El gasto total es: U$S ${E}`;
+        }
+    </script>
+</body>
+</html>

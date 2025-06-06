@@ -1,0 +1,50 @@
+body {
+    background-color: green;
+    font-family: Arial, sans-serif;
+}
+
+/*menú superior*/
+.navbar, .clases-menu {
+    background-color: #333;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar a, .clases-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.navbar a:hover, .clases-menu a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content, .list {
+    margin-bottom: 15px;
+}
+
+.formula {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
